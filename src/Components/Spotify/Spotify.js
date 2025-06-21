@@ -17,7 +17,7 @@ const  Spotify = {
         if(tokenInURL && expTime){
             accessToken = tokenInURL[1];
             const expIn = Number(expTime[1]);
-            window.setTimeout(() => (accessToken = ""), expIn * 1000);
+            window.setTimeout(() => (accessToken = ""), expIn * 100000);
             window.history.pushState('Access token', null, '/');
             return accessToken;
         }
