@@ -1,6 +1,6 @@
 
 let accessToken = '';
-const clientId = '6c5112f882bf4edb90c6d3085aeb959c';
+const clientId = 'b8a5d4433d234c369de2f33742eb5989';
 const redirectURI = 'https://ayegeejammmingproject.surge.sh';
 
 
